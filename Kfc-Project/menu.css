@@ -1,0 +1,129 @@
+
+.body{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    
+}
+.bodyLeft{
+    
+    height: 90vh;
+    width: 30%;
+    float: left;
+    position: sticky;
+    top: 8.2rem;
+    padding-left: 6%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.bodyLeft>h6>a{text-decoration: none;color: rgba(0, 0, 0, 0.841);font-size: 1.5rem;font-weight: 500;}
+.bodyRight{
+    padding: 4em 2em;
+   
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-around;
+    gap: 50px;
+
+    width: 70%;
+    float: right;
+    font-size: 20px;
+    background-color: rgb(240, 239, 239);
+}
+
+/* Show Product */
+#sdiv{
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.319);
+    border-radius: 10px;
+    
+}
+#simage{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+
+}
+#stitle{padding-left: 2em;padding-top: 0.5em;
+
+}
+#sdiv2{
+    display: flex;
+    padding-left: 2em;
+    padding-top: 0.5em;
+
+}
+#simg{
+    padding-right: 10px;
+}
+#snon{
+
+}
+#sprice{padding-left: 2em;
+    padding-top: 0.5em;
+
+}
+#sdis{padding-left: 2em;
+    padding-top: 0.5em;
+
+}
+#sbtn{
+    background-color: red;
+    border: none;
+    display: block;
+    margin:1em auto;
+    font-size: 20px;
+    width: 80%;
+    padding: 0.8em 2em;
+    color: white;
+    border-radius: 100px;
+}
+
+#card{
+    width: 500px;
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0.936);
+    position: fixed;
+    right: 0px;
+    border-bottom-left-radius:10px;
+    overflow-y: scroll;
+    display: none;
+    
+}
+
+#idiv{
+    height: 80px;
+    border: 1px solid green;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+   
+    align-items: center;
+    padding-right: 10px;
+}
+#iimage{
+    height: 100%;
+    border-radius: 5px;
+}
+#cardh{
+    height: 80px;
+    background-color: rgb(80, 0, 0);
+    position: sticky;
+    top: 0px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 2em;
+    align-items: center;
+
+}
+#btnremove{
+    background-color: red;
+    display: inline-block;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 100px;
+    color: white;
+}
+

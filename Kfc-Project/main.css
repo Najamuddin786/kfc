@@ -1,0 +1,128 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#navbar{
+    padding: 3em 15%;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 1000;
+    
+}
+#left{
+    display: flex;
+    gap: 2rem;
+    font-size: 20px;
+    font-weight: 700;
+}
+#right>div{
+    display: flex;
+    gap: 10px;
+ 
+}
+#navbar>div>a{
+    text-decoration: none;color: rgb(0, 0, 0);
+}
+.rb{
+    border-right: 2px solid rgba(0, 0, 0, 0.268);
+    padding-right: 10px;
+    height: 25px;
+}
+
+#right{
+    display: flex;
+    gap: 2rem;
+    font-size: 20px;
+    font-weight: 700;
+}
+.navbar2{
+    background-color: rgb(15, 15, 15);
+    color: white;
+    padding: 1.3em;
+    text-align: center;
+    display: flex;
+   padding-left:30% ;
+    gap: 10px;
+    
+}
+
+.navbar2>h3{margin-top: 18px}
+.navbar2>button{
+    background-color: red;
+    display: inline-block;
+    padding: 15px 40px;
+    font-size: 20px;
+    border: none;
+    border-radius: 100px;
+    color: white;
+}
+.navbar3>img{width: 100%;}
+.homeContainer1{
+    padding-left: 15%;
+    margin: 5em 0px;
+    
+    
+}
+.homeContainer1>h1{font-weight: 900;display: inline-block;}
+.homeContainer1>div{background-color: rgba(0, 0, 0, 0.209);height: 2px;width: 55%;float: right;margin-right: 15%;margin-top: 16px;}
+
+.homeContainer2{
+    display: grid;
+    
+    grid-template-columns: repeat(4,1fr);
+    margin: 1em 15%;
+    gap: 15px;
+    text-align: center;
+    font-size: 18px;
+    
+}
+.homeContainer2>div>div>img{
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+.homeContainer2>div{
+    background-color: rgb(249, 247, 247);
+    border-radius: 5px;
+}
+.homeContainer2>div>h4{
+    padding: 1.5em;
+}
+.footer{
+    height: 20vh;
+    background: #252424;
+    padding: 25% 12%;
+    color: white;
+
+}
+.footerLast{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35vh;
+}
+.footerLast>h5{
+    width: 80%;
+    text-align: center;
+}
+.footerFirst{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+
+}
+
+.footerFirst>div>a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    
+}
+.ff{
+    display: flex;
+    flex-direction: column;
+}
